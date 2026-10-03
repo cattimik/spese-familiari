@@ -1,1 +1,17 @@
-{"name":"Spese Familiari","short_name":"Spese","start_url":"./","display":"standalone","background_color":"#f4f4f1","theme_color":"#f4f4f1","icons":[]}
+{
+  "name": "Rendicontazione figli",
+  "short_name": "Rendicontazione figli",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#F8F5EF",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
