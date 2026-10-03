@@ -8,9 +8,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./icon.PNG?v=4">
 
 </head><body>
-<h1>Spese familiari</h1><p>Excel di Alba + Notepad di Michele → Excel finale</p>
-<div class="card"><div class="label">1. Excel di Alba</div><label class="pick"><input id="excel" type="file" accept=".xls,.xlsx,.xlsm,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></label></div>
-<div class="card"><div class="label">2. Notepad di Michele</div><label class="pick"><input id="txt" type="file" accept=".txt,text/plain"></label></div>
+<h1>Spese familiari</h1><p>Spese di Alba + Spese di Michele → Excel Finale</p>
+<div class="card"><div class="label">1. File Spese di Alba</div><label class="pick"><input id="excel" type="file" accept=".xls,.xlsx,.xlsm,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"></label></div>
+<div class="card"><div class="label">2. File Spese di Michele</div><label class="pick"><input id="txt" type="file" accept=".txt,text/plain"></label></div>
 <div class="card"><div class="label">Ripartizione</div><div class="grid"><div><span class="small">Alba %</span><input class="pct" id="pa" type="number" value="35" step="0.01"></div><div><span class="small">Michele %</span><input class="pct" id="pm" type="number" value="65" step="0.01"></div></div></div>
 <button class="btn" id="analyze">CONTROLLA I DATI</button><div id="error" class="err"></div>
 <div class="card summary" id="summary"><div class="row"><span>Spese Alba</span><b id="ca"></b></div><div class="row"><span>Spese Michele</span><b id="cm"></b></div><div class="row"><span>Totale Alba</span><b id="ta"></b></div><div class="row"><span>Totale Michele</span><b id="tm"></b></div><div class="row"><span>Totale spese</span><b id="tt"></b></div><div class="row saldo"><span id="who"></span><span id="balance"></span></div></div>
